@@ -1,11 +1,69 @@
-body
-{
-    color:beige;
-    text-align: justify;
+/* style.css */
 
+/* styles for body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 10;
+  padding: 10;
 }
-p {
-    color: red;
-    text-align: center;
-  }
 
+/* Styles for heading */
+h1, h2, h3 {
+  margin-top: 10;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  padding: 2rem;
+}
+
+/* container class to center the content on the page */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Style for  the intro paragraph */
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+/* class for the code block */
+.code-block {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* for the button */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0062cc;
+}
